@@ -1,0 +1,10 @@
+transformers>=4.42.0
+accelerate>=0.31.0
+bitsandbytes>=0.43.0
+torch>=2.2.0
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+streamlit>=1.36.0
+pypdf>=4.2.0
+huggingface_hub
+numpy
