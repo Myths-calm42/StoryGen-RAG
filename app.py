@@ -63,10 +63,7 @@ st.sidebar.title("Settings")
 
 MODEL_OPTIONS = {
     "Qwen2.5-7B-Instruct (default, ungated)": "Qwen/Qwen2.5-7B-Instruct",
-    "Mistral-7B-Instruct-v0.3 (ungated)": "mistralai/Mistral-7B-Instruct-v0.3",
-    "Llama-3.1-8B-Instruct (gated — requires HF license + login)": "meta-llama/Llama-3.1-8B-Instruct",
-    "Gemma-2-9b-it (gated — requires HF license + login)": "google/gemma-2-9b-it",
-    "Custom (type your own model ID below)": None,
+    "Mistral-7B-Instruct-v0.3 (ungated)": "mistralai/Mistral-7B-Instruct-v0.3": None,
 }
 
 model_choice_label = st.sidebar.selectbox("Generator model", list(MODEL_OPTIONS.keys()), index=0)
