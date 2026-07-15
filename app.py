@@ -63,7 +63,7 @@ st.sidebar.title("Settings")
 
 MODEL_OPTIONS = {
     "Qwen2.5-7B-Instruct (default, ungated)": "Qwen/Qwen2.5-7B-Instruct",
-    "Mistral-7B-Instruct-v0.3 (ungated)": "mistralai/Mistral-7B-Instruct-v0.3": None,
+    "Mistral-7B-Instruct-v0.3 (ungated)": "mistralai/Mistral-7B-Instruct-v0.3",
 }
 
 model_choice_label = st.sidebar.selectbox("Generator model", list(MODEL_OPTIONS.keys()), index=0)
