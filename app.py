@@ -62,7 +62,8 @@ if "generated_chapters" not in st.session_state:
 st.sidebar.title("Settings")
 
 MODEL_OPTIONS = {
-    "Qwen2.5-7B-Instruct (default, ungated)": "Qwen/Qwen2.5-7B-Instruct",
+    "Qwen2.5-1.5B-Instruct(default)":"Qwen/Qwen2.5-1.5B-Instruct",
+    "Qwen2.5-7B-Instruct (ungated)": "Qwen/Qwen2.5-7B-Instruct",
     "Mistral-7B-Instruct-v0.3 (ungated)": "mistralai/Mistral-7B-Instruct-v0.3",
 }
 
